@@ -54,7 +54,7 @@ const GallerySection = () => {
         <div className="text-center mb-12">
           <span className="text-primary font-semibold">Photo Gallery</span>
           <h2 className="text-3xl md:text-4xl font-display font-bold mt-2 mb-4">
-            Life at Golden Years Oasis
+            Life at Daylight Adult Daycare
           </h2>
           <p className="text-neutral-dark max-w-3xl mx-auto">
             Take a glimpse into our vibrant community and the engaging activities we offer.

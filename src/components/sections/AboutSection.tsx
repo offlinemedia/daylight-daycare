@@ -29,7 +29,7 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-neutral-dark mb-4">
-              Golden Years Oasis was founded in 2005 with a simple yet powerful mission: to provide exceptional care for seniors in a warm, home-like environment that celebrates their individuality and nurtures their well-being.
+              Daylight Adult Daycare is opening soon with a simple yet powerful mission: to provide exceptional care for seniors in a warm, home-like environment that celebrates their individuality and nurtures their well-being.
             </p>
             
             <p className="text-neutral-dark mb-6">

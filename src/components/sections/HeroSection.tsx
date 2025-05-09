@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="relative bg-gradient-to-r from-neutral-light to-secondary overflow-hidden">
       <div className="container mx-auto px-4 py-20 md:py-28 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0 z-10">
-          <span className="text-primary font-semibold text-lg mb-2 block">Welcome to Golden Years Oasis</span>
+          <span className="text-primary font-semibold text-lg mb-2 block">Welcome to Daylight Adult Daycare</span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6 leading-tight">
             Compassionate <span className="gradient-text">Senior Care</span> in a Warm Community
           </h1>

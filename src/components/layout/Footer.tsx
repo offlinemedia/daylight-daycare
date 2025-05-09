@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-display font-bold mb-4">Golden Years Oasis</h3>
+            <h3 className="text-2xl font-display font-bold mb-4">Daylight Adult Daycare</h3>
             <p className="mb-6">Providing compassionate care and enriching activities for seniors in a warm, welcoming environment.</p>
             <div className="flex space-x-4">
               <a href="#" className="bg-primary hover:bg-primary-dark p-2 rounded-full transition-colors">
@@ -64,7 +64,7 @@ const Footer = () => {
         <hr className="border-gray-700 mb-8" />
         
         <div className="text-center">
-          <p>&copy; {currentYear} Golden Years Oasis. All rights reserved.</p>
+          <p>&copy; {currentYear} Daylight Adult Daycare. All rights reserved.</p>
         </div>
       </div>
     </footer>

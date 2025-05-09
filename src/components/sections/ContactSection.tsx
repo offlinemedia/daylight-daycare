@@ -16,7 +16,7 @@ const ContactSection = () => {
             Get in Touch
           </h2>
           <p className="text-neutral-dark max-w-3xl mx-auto">
-            We're here to answer your questions about our services, schedule tours, and help you determine if Golden Years Oasis is the right fit for your loved one.
+            We're here to answer your questions about our services, schedule tours, and help you determine if Daylight Adult Daycare is the right fit for your loved one.
           </p>
         </div>
         

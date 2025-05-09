@@ -12,31 +12,31 @@ const testimonials = [
   {
     name: "Rekha Basnet",
     relation: "Daughter of Member",
-    quote: "Golden Years Oasis has been a blessing for our family. My father looks forward to going every day, and the staff genuinely care about his wellbeing. The peace of mind this gives our family is priceless.",
+    quote: "Daylight Adult Daycare has been a blessing for our family. My father looks forward to going every day, and the staff genuinely care about his wellbeing. The peace of mind this gives our family is priceless.",
     image: "/images/testimonials/testimonials_1.jpg"
   },
   {
     name: "Rohan Sharma",
     relation: "Son of Member",
-    quote: "Since mom started attending Golden Years Oasis, we've seen a remarkable improvement in her mood and energy. The diverse activities keep her engaged and she's made wonderful friends. The staff communication is excellent.",
+    quote: "Since mom started attending Daylight Adult Daycare, we've seen a remarkable improvement in her mood and energy. The diverse activities keep her engaged and she's made wonderful friends. The staff communication is excellent.",
     image: "/images/testimonials/testimonials_2.jpg"
   },
   {
     name: "Kamala Bhandari",
     relation: "Member",
-    quote: "I was hesitant to join a day program, but Golden Years Oasis has exceeded my expectations. The staff are compassionate, the activities are fun and stimulating, and I've made wonderful friends. I feel valued and cared for here.",
+    quote: "I was hesitant to join a day program, but Daylight Adult Daycare has exceeded my expectations. The staff are compassionate, the activities are fun and stimulating, and I've made wonderful friends. I feel valued and cared for here.",
     image: "/images/testimonials/testimonials_3.jpg"
   },
   {
     name: "Narayan Acharya",
     relation: "Husband of Member",
-    quote: "The care my wife receives at Golden Years Oasis is exceptional. As her caregiver, having reliable respite care allows me to recharge while knowing she's in good hands. The staff is professional, attentive, and truly caring.",
+    quote: "The care my wife receives at Daylight Adult Daycare is exceptional. As her caregiver, having reliable respite care allows me to recharge while knowing she's in good hands. The staff is professional, attentive, and truly caring.",
     image: "/images/testimonials/testimonials_4.jpg"
   },
   {
     name: "Kamala Devi Sharma",
     relation: "Member",
-    quote: "Coming to Golden Years Oasis has given me something to look forward to each day. The staff know me by name and the activities are tailored to what I enjoy. It's become like a second family to me.",
+    quote: "Coming to Daylight Adult Daycare has given me something to look forward to each day. The staff know me by name and the activities are tailored to what I enjoy. It's become like a second family to me.",
     image: "/images/testimonials/testimonials_5.jpg"
   }
 ];
