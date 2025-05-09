@@ -18,7 +18,7 @@ const CtaSection = () => {
             <Button className="bg-white text-primary hover:bg-neutral-light px-8 py-6 text-lg">
               Schedule a Tour
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-primary-dark px-8 py-6 text-lg">
+            <Button className="bg-transparent border border-white text-white hover:bg-primary-dark hover:text-white px-8 py-6 text-lg">
               <Phone className="mr-2" size={20} />
               Call Us Today
             </Button>
