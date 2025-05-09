@@ -10,34 +10,34 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Rekha Basnet",
     relation: "Daughter of Member",
     quote: "Golden Years Oasis has been a blessing for our family. My father looks forward to going every day, and the staff genuinely care about his wellbeing. The peace of mind this gives our family is priceless.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    image: "/images/testimonials/testimonials_1.jpg"
   },
   {
-    name: "Robert Chen",
+    name: "Rohan Sharma",
     relation: "Son of Member",
     quote: "Since mom started attending Golden Years Oasis, we've seen a remarkable improvement in her mood and energy. The diverse activities keep her engaged and she's made wonderful friends. The staff communication is excellent.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    image: "/images/testimonials/testimonials_2.jpg"
   },
   {
-    name: "Patricia Williams",
+    name: "Kamala Bhandari",
     relation: "Member",
     quote: "I was hesitant to join a day program, but Golden Years Oasis has exceeded my expectations. The staff are compassionate, the activities are fun and stimulating, and I've made wonderful friends. I feel valued and cared for here.",
-    image: "https://images.unsplash.com/photo-1581704906775-891dd5207444?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+    image: "/images/testimonials/testimonials_3.jpg"
   },
   {
-    name: "Michael Rodriguez",
+    name: "Narayan Acharya",
     relation: "Husband of Member",
     quote: "The care my wife receives at Golden Years Oasis is exceptional. As her caregiver, having reliable respite care allows me to recharge while knowing she's in good hands. The staff is professional, attentive, and truly caring.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    image: "/images/testimonials/testimonials_4.jpg"
   },
   {
-    name: "Elizabeth Taylor",
+    name: "Kamala Devi Sharma",
     relation: "Member",
     quote: "Coming to Golden Years Oasis has given me something to look forward to each day. The staff know me by name and the activities are tailored to what I enjoy. It's become like a second family to me.",
-    image: "https://images.unsplash.com/photo-1551861779-997a90acfd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    image: "/images/testimonials/testimonials_5.jpg"
   }
 ];
 

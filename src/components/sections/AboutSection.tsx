@@ -10,12 +10,12 @@ const AboutSection = () => {
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-accent rounded-full opacity-70 z-0"></div>
             <div className="relative z-10 bg-white p-4 rounded-xl shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1576765608622-067973a79f55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+                src="/images/about/about_1.jpg"
                 alt="Caregiver with senior"
                 className="rounded-lg w-full h-auto object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-primary p-4 rounded-lg shadow-lg max-w-xs">
+            <div className="absolute -bottom-6 -right-6 bg-primary p-4 rounded-lg shadow-lg max-w-xs z-20">
               <p className="text-white italic text-sm">
                 "Our mission is to create a safe, nurturing environment where seniors can enjoy their golden years with dignity and joy."
               </p>

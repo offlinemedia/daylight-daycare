@@ -4,42 +4,42 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    src: "/images/gallery/galary_artclass_1.jpg",
     alt: "Senior art class",
     category: "Activities"
   },
   {
-    src: "https://images.unsplash.com/photo-1577368211130-4baa6b8ea3bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    src: "/images/gallery/galary_eating_1.jpg",
     alt: "Seniors enjoying a meal together",
     category: "Dining"
   },
   {
-    src: "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    src: "/images/gallery/galary_group_fun.jpg",
     alt: "Group laughing together",
     category: "Community"
   },
   {
-    src: "https://images.unsplash.com/photo-1519861531473-9200262188bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+    src: "/images/gallery/galary_yoga_1.jpg",
     alt: "Senior yoga session",
     category: "Fitness"
   },
   {
-    src: "https://images.unsplash.com/photo-1529333166437-7cea30cc9112?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
+    src: "/images/gallery/galary_music_1.jpg",
     alt: "Music therapy session",
     category: "Activities"
   },
   {
-    src: "https://images.unsplash.com/photo-1574108233269-86d1199d28de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1437&q=80",
+    src: "/images/gallery/galary_reading_1.jpg",
     alt: "Reading corner",
     category: "Facilities"
   },
   {
-    src: "https://images.unsplash.com/photo-1595178650290-c7674453c881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    src: "/images/gallery/galary_gardening_1.jpg",
     alt: "Gardening activity",
     category: "Activities"
   },
   {
-    src: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    src: "/images/gallery/galary_game_1.jpg",
     alt: "Game time",
     category: "Community"
   }

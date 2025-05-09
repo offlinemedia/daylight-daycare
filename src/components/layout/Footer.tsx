@@ -65,9 +65,6 @@ const Footer = () => {
         
         <div className="text-center">
           <p>&copy; {currentYear} Golden Years Oasis. All rights reserved.</p>
-          <p className="mt-2 text-sm flex items-center justify-center">
-            Made with <Heart size={14} className="mx-1 text-primary" /> for seniors and their families
-          </p>
         </div>
       </div>
     </footer>
