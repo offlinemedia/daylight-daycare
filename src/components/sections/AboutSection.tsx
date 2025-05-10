@@ -11,7 +11,7 @@ const AboutSection = () => {
             <div className="relative z-10 bg-white p-4 rounded-xl shadow-lg">
               <img
                 src="/images/about/about_1.jpg"
-                alt="Caregiver with senior"
+                alt="Caregiver assisting a senior with a smile"
                 className="rounded-lg w-full h-auto object-cover"
               />
             </div>
@@ -29,11 +29,11 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-neutral-dark mb-4">
-              Daylight Adult Daycare is opening soon with a simple yet powerful mission: to provide exceptional care for seniors in a warm, home-like environment that celebrates their individuality and nurtures their well-being.
+              Daylight Adult Daycare has a simple yet powerful mission: to provide exceptional care for seniors in a warm, home-like environment that celebrates their individuality and nurtures their well-being.
             </p>
             
             <p className="text-neutral-dark mb-6">
-              Our team of dedicated professionals brings decades of experience in senior care, along with genuine passion for making each day meaningful for our members. We believe that the later years of life should be filled with joy, purpose, and dignity.
+              Our team of dedicated professionals brings decades of experience in senior care, along with a genuine passion for making each day meaningful for our members. We believe that the later years of life should be filled with joy, purpose, and dignity.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">

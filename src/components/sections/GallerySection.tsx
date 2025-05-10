@@ -88,7 +88,7 @@ const GallerySection = () => {
             {selectedImage && (
               <img 
                 src={selectedImage} 
-                alt="Gallery image" 
+                alt="Seniors participating in activities at Daylight Adult Daycare" 
                 className="w-full h-auto rounded-lg"
               />
             )}

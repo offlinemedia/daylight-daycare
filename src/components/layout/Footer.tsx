@@ -47,15 +47,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="text-primary mr-3 mt-1 flex-shrink-0" size={18} />
-                <span>123 Care Lane, Serenity City, SC 12345</span>
+                <span>2500 Scarborough Sq, Columbus, OH 43232</span>
               </li>
               <li className="flex items-center">
                 <Phone className="text-primary mr-3 flex-shrink-0" size={18} />
-                <a href="tel:+1234567890" className="hover:text-primary transition-colors">(123) 456-7890</a>
+                <a href="tel:+1234567890" className="hover:text-primary transition-colors">614-123-4567</a>
               </li>
               <li className="flex items-center">
                 <Mail className="text-primary mr-3 flex-shrink-0" size={18} />
-                <a href="mailto:info@goldenyearsoasis.com" className="hover:text-primary transition-colors">info@goldenyearsoasis.com</a>
+                <a href="mailto:daylightdaycareohio@gmail.com" className="hover:text-primary transition-colors">daylightdaycareohio@gmail.com</a>
               </li>
             </ul>
           </div>

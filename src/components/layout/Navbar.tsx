@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <a href="tel:+1234567890" className="flex items-center text-primary hover:text-primary-dark transition-colors">
               <Phone size={18} className="mr-2" />
-              (123) 456-7890
+              614-123-4567
             </a>
             <Button className="bg-primary hover:bg-primary-dark text-white">
               Schedule a Tour
@@ -57,7 +57,7 @@ const Navbar = () => {
             <a href="#contact" className="text-neutral-dark hover:text-primary transition-colors py-2">Contact</a>
             <a href="tel:+1234567890" className="flex items-center text-primary hover:text-primary-dark transition-colors py-2">
               <Phone size={18} className="mr-2" />
-              (123) 456-7890
+              614-123-4567
             </a>
             <Button className="bg-primary hover:bg-primary-dark text-white w-full mt-2">
               Schedule a Tour

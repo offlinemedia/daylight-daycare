@@ -16,7 +16,7 @@ const ContactSection = () => {
             Get in Touch
           </h2>
           <p className="text-neutral-dark max-w-3xl mx-auto">
-            We're here to answer your questions about our services, schedule tours, and help you determine if Daylight Adult Daycare is the right fit for your loved one.
+            We're here to answer your questions about our services, schedule tours, and help you discover if Daylight Adult Daycare is the perfect place for your loved one.
           </p>
         </div>
         
@@ -39,12 +39,12 @@ const ContactSection = () => {
                 
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
-                  <Input id="email" type="email" placeholder="your@email.com" />
+                  <Input id="email" type="email" placeholder="daylightdaycareohio@gmail.com" />
                 </div>
                 
                 <div className="space-y-2">
                   <Label htmlFor="phone">Phone</Label>
-                  <Input id="phone" placeholder="(123) 456-7890" />
+                  <Input id="phone" placeholder="614-123-4567" />
                 </div>
                 
                 <div className="space-y-2">
@@ -81,21 +81,21 @@ const ContactSection = () => {
               
               <ul className="space-y-6">
                 <li className="flex items-start">
-                  <MapPin className="text-primary mr-3 mt-1 flex-shrink-0" size={20} />
+                  <MapPin className="text-primary mr-3 mt-1 flex-shrink-0" size={20} aria-hidden="true" />
                   <div>
                     <span className="font-semibold block mb-1">Address</span>
                     <address className="not-italic">
-                      123 Care Lane<br />
-                      Serenity City, SC 12345
+                      2500 Scarborough Sq<br />
+                      Columbus, OH 43232
                     </address>
                   </div>
                 </li>
                 
                 <li className="flex items-start">
-                  <Phone className="text-primary mr-3 mt-1 flex-shrink-0" size={20} />
+                  <Phone className="text-primary mr-3 mt-1 flex-shrink-0" size={20} aria-hidden="true" />
                   <div>
                     <span className="font-semibold block mb-1">Phone</span>
-                    <a href="tel:+1234567890" className="hover:text-primary transition-colors">(123) 456-7890</a>
+                    <a href="tel:+1234567890" className="hover:text-primary transition-colors">614-123-4567</a>
                   </div>
                 </li>
                 
@@ -103,7 +103,7 @@ const ContactSection = () => {
                   <Mail className="text-primary mr-3 mt-1 flex-shrink-0" size={20} />
                   <div>
                     <span className="font-semibold block mb-1">Email</span>
-                    <a href="mailto:info@goldenyearsoasis.com" className="hover:text-primary transition-colors">info@goldenyearsoasis.com</a>
+                    <a href="mailto:daylightdaycareohio@gmail.com" className="hover:text-primary transition-colors">daylightdaycareohio@gmail.com</a>
                   </div>
                 </li>
                 
