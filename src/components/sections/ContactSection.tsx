@@ -16,13 +16,13 @@ const ContactSection = () => {
             Get in Touch
           </h2>
           <p className="text-neutral-dark max-w-3xl mx-auto">
-            We're here to answer your questions about our services, schedule tours, and help you discover if Daylight Adult Daycare is the perfect place for your loved one.
+            We're here to answer your questions about our services and help you discover if Daylight Adult Daycare is the perfect place for your loved one.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
           <div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-white p-8 rounded-lg shadow-md h-full flex flex-col">
               <h3 className="text-2xl font-display font-bold mb-6">Send Us a Message</h3>
               
               <form className="space-y-4">
@@ -75,11 +75,11 @@ const ContactSection = () => {
             </div>
           </div>
           
-          <div className="flex flex-col">
-            <div className="flex-1 bg-white p-8 rounded-lg shadow-md mb-6">
+          <div className="flex flex-col h-full">
+            <div className="flex-1 bg-white p-8 rounded-lg shadow-md flex flex-col h-full">
               <h3 className="text-2xl font-display font-bold mb-6">Contact Information</h3>
               
-              <ul className="space-y-6">
+              <ul className="space-y-6 flex-1">
                 <li className="flex items-start">
                   <MapPin className="text-primary mr-3 mt-1 flex-shrink-0" size={20} aria-hidden="true" />
                   <div>
@@ -111,24 +111,26 @@ const ContactSection = () => {
                   <Clock className="text-primary mr-3 mt-1 flex-shrink-0" size={20} />
                   <div>
                     <span className="font-semibold block mb-1">Hours of Operation</span>
-                    <p>Monday - Friday: 7:30 AM - 6:00 PM<br />
-                    Saturday: 9:00 AM - 2:00 PM<br />
-                    Sunday: Closed</p>
+                    <div>
+                      <div>
+                        <span className="font-semibold">Monday - Friday:</span><br />
+                        <span className="ml-4">7:30 AM - 6:00 PM</span>
+                      </div>
+                      <div className="mt-2">
+                        <span className="font-semibold">Saturday:</span><br />
+                        <span className="ml-4">9:00 AM - 2:00 PM</span>
+                      </div>
+                      <div className="mt-2">
+                        <span className="font-semibold">Sunday:</span><br />
+                        <span className="ml-4">Closed</span>
+                      </div>
+                    </div>
                   </div>
                 </li>
               </ul>
             </div>
             
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-display font-bold mb-4 flex items-center">
-                <Calendar className="mr-2 text-primary" size={20} />
-                Schedule a Tour
-              </h3>
-              <p className="mb-4">We invite you to visit our facility, meet our staff, and see our programs in action.</p>
-              <Button className="w-full bg-primary hover:bg-primary-dark text-white">
-                Book a Tour
-              </Button>
-            </div>
+
           </div>
         </div>
       </div>
