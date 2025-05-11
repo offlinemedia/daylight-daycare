@@ -1,0 +1,8 @@
+.logo-text-responsive {
+  left: 5px;
+}
+@media (min-width: 768px) {
+  .logo-text-responsive {
+    left: 0;
+  }
+}

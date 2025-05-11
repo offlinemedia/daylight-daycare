@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
+import LogoNameSwitcher from "./LogoNameSwitcher";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,11 +15,11 @@ const Navbar = () => {
     <nav className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <a href="/" className="flex items-center">
-            <span className="text-2xl font-display font-bold text-primary">Daylight Adult Daycare</span>
-          </a>
+          <a href="/" className="flex-shrink-0">
+  <LogoNameSwitcher />
+</a>
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 ml-auto">
             <a href="#services" className="text-neutral-dark hover:text-primary transition-colors">Services</a>
             <a href="#about" className="text-neutral-dark hover:text-primary transition-colors">About Us</a>
             <a href="#activities" className="text-neutral-dark hover:text-primary transition-colors">Activities</a>
@@ -27,7 +28,7 @@ const Navbar = () => {
             <a href="#contact" className="text-neutral-dark hover:text-primary transition-colors">Contact</a>
           </div>
           
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4 ml-8">
             <a href="tel:+1234567890" className="flex items-center text-primary hover:text-primary-dark transition-colors">
               <Phone size={18} className="mr-2" />
               614-123-4567
