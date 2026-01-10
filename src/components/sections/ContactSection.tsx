@@ -23,7 +23,7 @@ const ContactSection = () => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
-    setFormData(prev => ({ ...prev, [id.replace("-","")]: value }));
+    setFormData(prev => ({ ...prev, [id.replace("-", "")]: value }));
   };
 
   const handleSelectChange = (value: string) => {
@@ -81,7 +81,7 @@ const ContactSection = () => {
         title: "Message Sent",
         description: (
           <span style={{ display: 'flex', alignItems: 'center', color: '#166534' }}>
-            <svg style={{marginRight: 8}} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#bbf7d0"/><path d="M7 13.5l3 3 7-7" stroke="#166534" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            <svg style={{ marginRight: 8 }} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#bbf7d0" /><path d="M7 13.5l3 3 7-7" stroke="#166534" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
             Thank you! Your message has been sent successfully.
           </span>
         ),
@@ -125,12 +125,12 @@ const ContactSection = () => {
             We're here to answer your questions about our services and help you discover if Daylight Adult Daycare is the perfect place for your loved one.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
           <div>
             <div className="bg-white p-8 rounded-lg shadow-md h-full flex flex-col">
               <h3 className="text-2xl font-display font-bold mb-6">Send Us a Message</h3>
-              
+
               <form className="space-y-4" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
@@ -142,17 +142,17 @@ const ContactSection = () => {
                     <Input id="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
                   </div>
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
                   <Input id="email" type="email" placeholder="your@email.com" value={formData.email} onChange={handleChange} />
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="phone">Phone</Label>
                   <Input id="phone" placeholder="Your phone number" value={formData.phone} onChange={handleChange} />
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="inquiry-type">Type of Inquiry</Label>
                   <Select value={formData.inquiryType} onValueChange={handleSelectChange}>
@@ -168,23 +168,23 @@ const ContactSection = () => {
                     </SelectContent>
                   </Select>
                 </div>
-                
+
                 <div className="space-y-2">
                   <Label htmlFor="message">Message</Label>
                   <Textarea id="message" placeholder="How can we help you?" className="min-h-[100px]" value={formData.message} onChange={handleChange} required />
                 </div>
-                
+
                 <Button className="w-full bg-primary hover:bg-primary-dark text-white" type="submit" disabled={submitting}>
                   {submitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </div>
           </div>
-          
+
           <div className="flex flex-col h-full">
             <div className="flex-1 bg-white p-8 rounded-lg shadow-md flex flex-col h-full">
               <h3 className="text-2xl font-display font-bold mb-6">Contact Information</h3>
-              
+
               <ul className="space-y-6 flex-1">
                 <li className="flex items-start">
                   <MapPin className="text-primary mr-3 mt-1 flex-shrink-0" size={20} aria-hidden="true" />
@@ -196,15 +196,15 @@ const ContactSection = () => {
                     </address>
                   </div>
                 </li>
-                
+
                 <li className="flex items-start">
                   <Phone className="text-primary mr-3 mt-1 flex-shrink-0" size={20} aria-hidden="true" />
                   <div>
                     <span className="font-semibold block mb-1">Phone</span>
-                    <a href="tel:+1234567890" className="hover:text-primary transition-colors">614-123-4567</a>
+                    <a href="tel:+13802156029" className="hover:text-primary transition-colors">(380) 215-6029</a>
                   </div>
                 </li>
-                
+
                 <li className="flex items-start">
                   <Mail className="text-primary mr-3 mt-1 flex-shrink-0" size={20} />
                   <div>
@@ -212,7 +212,7 @@ const ContactSection = () => {
                     <a href="mailto:daylightdaycareohio@gmail.com" className="hover:text-primary transition-colors">daylightdaycareohio@gmail.com</a>
                   </div>
                 </li>
-                
+
                 <li className="flex items-start">
                   <Clock className="text-primary mr-3 mt-1 flex-shrink-0" size={20} />
                   <div>
@@ -235,7 +235,7 @@ const ContactSection = () => {
                 </li>
               </ul>
             </div>
-            
+
 
           </div>
         </div>

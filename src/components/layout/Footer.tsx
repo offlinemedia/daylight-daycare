@@ -3,7 +3,7 @@ import { Heart, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="bg-neutral-dark text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
@@ -29,7 +29,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-3">
@@ -41,7 +41,7 @@ const Footer = () => {
               <li><a href="#contact" className="hover:text-primary transition-colors">Contact Us</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Information</h3>
             <ul className="space-y-4">
@@ -51,7 +51,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="text-primary mr-3 flex-shrink-0" size={18} />
-                <a href="tel:+1234567890" className="hover:text-primary transition-colors">614-123-4567</a>
+                <a href="tel:+13802156029" className="hover:text-primary transition-colors">(380) 215-6029</a>
               </li>
               <li className="flex items-center">
                 <Mail className="text-primary mr-3 flex-shrink-0" size={18} />
@@ -60,9 +60,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <hr className="border-gray-700 mb-8" />
-        
+
         <div className="text-center">
           <p>&copy; {currentYear} Daylight Adult Daycare. All rights reserved.</p>
         </div>

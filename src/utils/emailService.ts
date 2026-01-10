@@ -40,5 +40,5 @@ export function fallbackMailto(data: ContactFormData) {
   const body = encodeURIComponent(
     `Name: ${data.firstName} ${data.lastName}\nEmail: ${data.email}\nPhone: ${data.phone}\nType: ${data.inquiryType}\nMessage:\n${data.message}`
   );
-  window.location.href = `mailto:offlinemedia79@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:daylightdaycareohio@gmail.com?subject=${subject}&body=${body}`;
 }
