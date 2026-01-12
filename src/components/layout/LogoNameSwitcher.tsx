@@ -12,7 +12,7 @@ const LogoNameSwitcher = () => {
   return (
     <div className="relative w-32 h-10 flex items-center justify-center" style={{ overflow: "visible" }}>
       <img
-        src="/images/logo/logo2.png"
+        src="/images/logo/logo3.png"
         alt="Daylight Logo"
         className={`absolute left-1/3 top-1/2 transition-opacity duration-700 ${showLogo ? "opacity-100" : "opacity-0"} -translate-x-1/2 -translate-y-1/2`}
         style={{ borderRadius: "50%", width: "72px", height: "72px" }}
