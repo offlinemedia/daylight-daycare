@@ -201,7 +201,7 @@ const ContactSection = () => {
                   <Phone className="text-primary mr-3 mt-1 flex-shrink-0" size={20} aria-hidden="true" />
                   <div>
                     <span className="font-semibold block mb-1">Phone</span>
-                    <a href="tel:+13802156029" className="hover:text-primary transition-colors">(380) 215-6029</a>
+                    <a href="tel:+13802155029" className="hover:text-primary transition-colors">(380) 215-5029</a>
                   </div>
                 </li>
 
@@ -220,14 +220,10 @@ const ContactSection = () => {
                     <div>
                       <div>
                         <span className="font-semibold">Monday - Friday:</span><br />
-                        <span className="ml-4">7:30 AM - 6:00 PM</span>
+                        <span className="ml-4">9:00 AM - 5:00 PM</span>
                       </div>
                       <div className="mt-2">
-                        <span className="font-semibold">Saturday:</span><br />
-                        <span className="ml-4">9:00 AM - 2:00 PM</span>
-                      </div>
-                      <div className="mt-2">
-                        <span className="font-semibold">Sunday:</span><br />
+                        <span className="font-semibold">Saturday - Sunday:</span><br />
                         <span className="ml-4">Closed</span>
                       </div>
                     </div>
